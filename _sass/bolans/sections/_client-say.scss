@@ -1,0 +1,55 @@
+
+/* ========================== CLIENT SAY TESTIOMINAL SECTION =========================== */
+
+.client-sec {
+	padding: 70px 0 0;
+	margin-bottom: -140px;
+}
+.client-col {
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.20);
+	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.20);
+	-o-box-shadow: 0 0 20px rgba(0,0,0,0.20);
+	box-shadow: 0 0 20px rgba(0,0,0,0.20);
+	padding: 40px 50px;
+}
+.client-row {
+	display: table;
+	width: 100%;
+}
+.client-img {
+	float: left;
+	display: table-cell;
+	width: 110px;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.09);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.09);
+	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.09);
+	-o-box-shadow: 0 0 20px rgba(0,0,0,0.09);
+	box-shadow: 0 0 20px rgba(0,0,0,0.09);
+}
+.client-img img {
+	width: 100%;
+	border:2px solid #fff;
+}
+.client-info {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+	padding-left: 32px;
+}
+.client-info > h3 {
+	color: #4527a4;
+	font-size: 24px;
+	margin-bottom: 3px;
+}
+.client-info > span {
+	display: inline-block;
+	color: #aaaaaa;
+	font-size: 14px;
+	font-weight: 500;
+}
+.client-col > p {
+	line-height: 36px;
+	margin-top: 30px;
+}

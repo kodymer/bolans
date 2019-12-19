@@ -8,29 +8,29 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-# Minima date format
+# Bolans date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 bolans:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    rss: rss
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
+    twitter: bolans
+    # github:  bolans
+    # rss: rss
+    # dribbble: bolans
+    facebook: bolans
+    # flickr:   bolans
+    instagram: bolans
+    linkedin: bolans
+    # pinterest: bolans
+    # youtube: bolans
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
+    # telegram: bolans
+    # googleplus: +bolans
+    # microdotblog: bolans
+    # keybase: bolans
 
     # Mastodon instances
     # mastodon:
@@ -47,6 +47,15 @@ bolans:
 # Build settings
 theme: bolans
 
+# If you want to apply a specific style in your site, uncomment
+# this and add the style to the site as should show up
+# default style is style1
+#style: style1 #[style2, style3, style4]
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+collections:
+  services:
+    output: true

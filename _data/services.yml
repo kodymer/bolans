@@ -1,0 +1,51 @@
+
+1:
+  name: Digital Analytics
+  url: service-details.html
+  icon: flaticon-profit-1
+  description: "Duis dolor in reprehenderit <br> in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur
+  sint occaecat cupidatat non proident,"
+
+2:
+  name: Digital Marketing
+  url: service-details.html
+  icon: flaticon-profit
+  description: "Duis dolor in reprehenderit <br> in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur
+  sint occaecat cupidatat non proident,"
+
+3:
+  name: Email Marketing
+  url: service-details.html
+  icon: flaticon-campaign
+  description: "Duis dolor in reprehenderit <br> in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur
+  sint occaecat cupidatat non proident,"
+
+4:
+  name: Marketing Analysis
+  url: service-details.html
+  icon: flaticon-campaign-1
+  description: "Increase web traffic with pay-per click and retargeting advertising for your website pages."
+
+5:
+  name: Social Media
+  url: service-details.html
+  icon: flaticon-campaign
+  description: "Use customers’ preferences to engage in strategic conversations and build brand loyalty."
+
+6:
+  name: SEO & Backlinks
+  url: service-details.html
+  icon: flaticon-sync
+  description: "Grow and continually improve your website’s visibility and ranking with organic search."
+
+7:
+  name: Ecommerce
+  url: service-details.html
+  icon: flaticon-commerce-and-shopping
+  description: "Business to business (B2B) or consumer (B2C) we have the experience you need to cater to your online consumers."
+
+8:
+  name: Hosting & Email
+  url: service-details.html
+  icon: flaticon-server
+  description: "Reliable website hosting with professional grade email services. We can even manage your domain names for you!"

@@ -1,0 +1,32 @@
+
+/* ===================== BOTTOM STRIP ==================== */
+
+.bottom-strip {
+	padding: 20px 0;
+	background-color: $third-ft-color;
+	position: relative;
+}
+.copyright-text p {
+	color: #ffffff;
+	font-size: 14px;
+	float: left;
+}
+.ft-links {
+	float: right;
+	margin-top: 2px;
+}
+.ft-links li {
+	display: inline-block;
+	margin-right: 56px;
+}
+.ft-links li a {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 14px;
+}
+.ft-links li:last-child {
+	margin-right: 0;
+}
+.ft-links li a:hover {
+	color: #ff7e00;
+}

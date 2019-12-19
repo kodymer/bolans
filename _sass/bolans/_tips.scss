@@ -1,0 +1,104 @@
+.tips {
+
+  &-business-sec,
+  &-sec {
+    background-repeat: no-repeat;
+  }
+
+  &-business-sec {
+    padding: 100px 0 150px;
+    background-position: 90%;
+  }
+
+  &-sec {
+    padding: 75px 0 0;
+    background-position: left;
+    background-size: 48%;
+    background-position: 0 100%;
+
+    .sec-title {
+      margin-bottom: 50px;
+    }
+
+  }
+
+  &-col {
+    padding-right: 50px;
+    padding-top: 50px;
+
+    .sec-title {
+      margin-bottom: 35px;
+    }
+
+    >p {
+      line-height: 30px;
+      font-weight: 500;
+      margin-bottom: 72px;
+    }
+  }
+}
+
+.tps-row {
+  display: table;
+  width: 100%;
+  margin-bottom: 61px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.tp {
+
+  &-icon {
+    display: table-cell;
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    @include simple-prefix(box-shadow, 0 0 10px rgba(0, 0, 0, 0.09), webkit moz ms o);
+
+    img {
+      margin: 0;
+    }
+  }
+
+  &-info {
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+    padding-left: 47px;
+
+    >h3 {
+      color: $secondary-ft-color;
+      font-size: 24px;
+      margin-bottom: 10px;
+      margin-top: -9px;
+    }
+
+    >p {
+      line-height: 30px;
+      padding-right: 20px;
+    }
+  }
+}
+
+.vector {
+
+  &-bg {
+    padding-right: 50px;
+
+    >img {
+      width: 100%;
+    }
+  }
+
+  &-sd {
+    padding-top: 50px;
+
+    >img {
+      width: 100%;
+    }
+  }
+}

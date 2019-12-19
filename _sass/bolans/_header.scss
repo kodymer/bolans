@@ -1,0 +1,88 @@
+
+%background {
+  background-color: #fff;
+}
+
+%common {
+  left: 0;
+  width: 100%;
+}
+
+header {
+  $p: &;
+  padding: 45px 0 0 0;
+
+  .style1 &,
+  .style2 &,
+  .style3 &
+  {
+    @extend %common;
+    position: absolute;
+    z-index: 9;
+  }
+
+  .style1 &,
+  .style3 & {
+    top: 0;
+  }
+
+  .style2 & {
+    @extend %background;
+    top: 47px;
+    padding-top: 0;
+  }
+
+  .style3 & {
+    padding-top: 23px;
+  }
+
+  &.fixed,
+  .#{&}-content {
+    @extend %background;
+    @include simple-prefix(box-shadow, 0 0 10px rgba(0,0,0,0.10), webkit moz ms o);
+  }
+
+  .#{&}-content {
+    padding: 0 40px;
+  }
+
+  .style2 &,
+  .style3 &,
+  &.fixed {
+
+    .#{$p}-content {
+      @include simple-prefix(box-shadow, inherit, webkit moz ms o);
+      background-color: inherit;
+      padding: 0;
+    }
+  }
+
+  .style2 &,
+  &.fixed {
+
+    .#{$p}-content {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .style3 &.fixed {
+    background-color: $third-ft-color;
+  }
+
+  &.fixed  {
+    @extend %common;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding-top: 0;
+  }
+}
+
+.logo {
+	float: left;
+	width: 160px;
+	margin-top: 32px;
+}
+
+

@@ -1,0 +1,39 @@
+.get {
+
+  &-touch-sec {
+    background-image: url(../images/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 283px 0 190px;
+  }
+
+  &-text {
+
+    >h2,
+    >a {
+      font-weight: 700;
+      color: $secondary-ft-color;
+      line-height: 60px;
+    }
+
+    >h2 {
+      font-size: 36px;
+      margin-bottom: 37px;
+      padding: 0 110px;
+    }
+
+    >a {
+      display: inline-block;
+      font-size: 18px;
+      background-color: $link-inverse-color;
+      height: 60px;
+      padding: 0 48px;
+      @include simple-prefix(box-shadow, 0 0 10px rgba(0, 0, 0, 0.05), webkit moz ms o);
+
+      &:hover {
+        background-color: $secondary-highlighter-color;
+        color: $link-inverse-color;
+      }
+    }
+  }
+}

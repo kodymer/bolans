@@ -1,0 +1,19 @@
+<section class="case-studies-sec">
+    <div class="container">
+      <div class="sec-title center-style">
+        <h2>Our Case Studies Now</h2>
+      </div>
+      <!--sec-title end-->
+      <div class="case-studies-row row">
+
+          {% for case in  site.data.cases  %}
+
+          {% include detail/case-studies-detail.html case=case %}
+
+          {% endfor %}
+
+      </div>
+      <!--case-studies-row end-->
+    </div>
+  </section>
+  <!--case-studies-sec end-->

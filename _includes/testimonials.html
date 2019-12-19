@@ -1,0 +1,19 @@
+<section class="testimonial-sec">
+  <div class="container">
+    <div class="testi-sec">
+      <div class="testi-carousel">
+
+        {% for witness in  site.data.testimonials  %}
+
+        {% include detail/testimony-detail.html witness=witness %}
+
+        {% endfor %}
+
+      </div>
+    </div>
+    <!--testi-carousel end-->
+  </div>
+  <!--testi-sec end-->
+</div>
+</section>
+<!--testimonial-sec end-->

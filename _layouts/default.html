@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  <div class="page-loading">
+    <div class="thecube">
+      <div class="cube c1"></div>
+      <div class="cube c2"></div>
+      <div class="cube c4"></div>
+      <div class="cube c3"></div>
+    </div>
+  </div>
+  <!--page loading end-->
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  <main class="wrapper {{ site.style | default: "style1" }}">
 
-    {%- include footer.html -%}
+    {{ content }}
 
-  </body>
+  </main>
+
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/popper.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/placeholdem.min.js"></script>
+  <script src="/assets/js/lib/slick/slick.js"></script>
+  <script src="/assets/js/script.js"></script>
+
+</body>
 
 </html>

@@ -1,0 +1,20 @@
+<section class="partner-sec">
+    <div class="container">
+      <div class="partner-sec-details">
+        <div class="pt-carousel">
+          {% for partner in site.data.partners %}
+
+          <div class="partner-col">
+            <a href="#" title=""><img src="/assets/images/resources/{{ partner.avatar }}" alt=""></a>
+          </div>
+
+           {% endfor %}
+
+          <!--partner-col end-->
+        </div>
+        <!--pt-carousel end-->
+      </div>
+      <!--partner-sec-details end-->
+    </div>
+  </section>
+  <!--partner-sec end-->

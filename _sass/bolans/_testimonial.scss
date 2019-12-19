@@ -1,0 +1,140 @@
+.testimonial-sec {
+  background-image: url(../images/bg3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px 0 130px;
+  background-position: 70% 0;
+}
+
+.testi {
+
+  &-sec {
+    background-image: url(../images/resources/testi-bg.png);
+    background-repeat: no-repeat;
+  }
+
+  &-slide {
+    padding: 225px 0 200px 190px;
+  }
+
+  &-comment {
+    max-width: 560px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 14px;
+    padding-top: 15px;
+
+    &:before {
+      content: '\f10e';
+      position: absolute;
+      top: -25px;
+      right: 0;
+      color: #efefef;
+      font-size: 96px;
+      font-family: fontawesome;
+    }
+
+    >p {
+      max-width: 370px;
+      font-weight: 500;
+    }
+  }
+}
+
+.cm {
+
+  &-head {
+    display: table;
+    width: 100%;
+    margin-bottom: 51px;
+    margin-top: 4px;
+  }
+
+  &-img,
+  &-info {
+    display: table-cell;
+  }
+
+  &-img {
+    float: left;
+    width: 132px;
+    position: relative;
+    z-index: 1;
+    @include simple-prefix(box-shadow, 13px 8px 15px rgba(0, 0, 0, 0.09), webkit moz ms o);
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      width: 100px;
+      height: 100px;
+      background-color: #ededed;
+      z-index: -1;
+    }
+
+    >img {
+      width: 100%;
+    }
+  }
+
+  &-info {
+    width: 100%;
+    vertical-align: middle;
+    padding-left: 50px;
+
+    >h3 {
+      color: $secondary-ft-color;
+      font-size: 30px;
+      margin-bottom: 3px;
+    }
+
+    >span {
+      display: inline-block;
+      color: $paragraph-color;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+.slick {
+
+  &-prev,
+  &-next {
+    width: 60px;
+    height: 60px;
+    background-color: #edf3fd;
+    left: auto;
+    right: 100px;
+    top: 235px;
+    z-index: 99;
+
+    &:before {
+      cursor: pointer;
+      font-family: fontawesome;
+      position: absolute;
+      color: #46386c;
+      font-size: 24px;
+      opacity: 1;
+      top: 50%;
+      left: 50%;
+      @include simple-prefix(transform, translate(-50%, -50%), webkit moz ms o);
+    }
+  }
+
+  &-prev {
+    margin-right: 67px;
+
+    &:before {
+      content: '\f104';
+    }
+  }
+
+  &-next {
+
+    &:before {
+      content: '\f105';
+    }
+  }
+}

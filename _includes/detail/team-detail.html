@@ -1,0 +1,25 @@
+<div class="col-lg-4 col-md-6 col-sm-6">
+  <div class="team-col">
+    <div class="team-img">
+      <img src="/assets/images/resources/{{ include.author.avatar }}" alt="{{ include.author.name }}">
+    </div>
+    <div class="team-info">
+      <h3>{{ include.author.name }}</h3>
+      <span>{{ include.author.position }}</span>
+      <ul class="social-links">
+
+        {% for network in include.author.social %}
+
+        <li>
+          <a href="{{ network.url }}" title="">
+            <i class="fa fa-{{ network.title }}"></i>
+          </a>
+        </li>
+
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+  <!--team-col end-->
+</div>

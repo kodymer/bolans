@@ -2,50 +2,87 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
 
-$spacing-unit:     30px !default;
+$base-ft-family:                        "Quicksand", sans-serif !default;
+$base-ft-size:                          16px !default;
+$base-ft-weight:                        400 !default;
+$base-line-height:                      1.5 !default;
+$base-ft-color:                         #9c9c9c !default;
+$small-ft-size:                         $base-ft-size * 0.875 !default; // 14px
+$large-ft-size:                         $base-ft-size * 1.50 !default;  // 24px
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$primary-ft-color:                      #110802 !default;
+$primary-ft-inverse-color:              #ffffff !default;
+$secondary-ft-color:                    #222222 !default;
+$third-ft-color:                        #0a15a9 !default;
+$underline-before-bg-color:             #dae8ff !default;
+$underline-after-bg-color:              #6836ff !default;
+$paragraph-color:                       #777777 !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$link-color:                            $secondary-ft-color !default;
+$link-inverse-color:                    $primary-ft-inverse-color !default;
 
-$table-text-align: left !default;
+$primary-highlighter-color:             #ff7e00 !default;
+$secondary-highlighter-color:           $third-ft-color !default;
+$third-highlighter-color:               $underline-after-bg-color !default;
 
-// Width of the content area
-$content-width:    800px !default;
+// $spacing-unit:     30px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+// $text-color:       #111 !default;
+// $background-color: #fdfdfd !default;
+// $brand-color:      #2a7ae2 !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
+// $grey-color:       #828282 !default;
+// $grey-color-light: lighten($grey-color, 40%) !default;
+// $grey-color-dark:  darken($grey-color, 25%) !default;
+
+// $table-text-align: left !default;
+
+// // Width of the content area
+// $content-width:    800px !default;
+
+// $on-palm:          600px !default;
+// $on-laptop:        800px !default;
+
+// // Use media queries like this:
+// // @include media-query($on-palm) {
+// //   .wrapper {
+// //     padding-right: $spacing-unit / 2;
+// //     padding-left: $spacing-unit / 2;
+// //   }
+// // }
+// @mixin media-query($device) {
+//   @media screen and (max-width: $device) {
+//     @content;
 //   }
 // }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
+// @mixin relative-font-size($ratio) {
+//   font-size: $base-font-size * $ratio;
+// }
 
-// Import partials.
+// Import sections.
 @import
-  "bolans/base",
-  "bolans/layout",
-  "bolans/syntax-highlighting"
+  'bolans/_mixins',
+  "bolans/_reset",
+  "bolans/_browser-compatibility",
+  'bolans/_base',
+  "bolans/_header",
+  "bolans/_menu",
+  "bolans/_banner",
+  "bolans/_hows-work",
+  "bolans/_tips",
+  "bolans/_seo",
+  "bolans/_case-studies",
+  "bolans/_facts",
+  "bolans/_team",
+  "bolans/_testimonial",
+  "bolans/_partner",
+  "bolans/_get-touch",
+  "bolans/_footer",
+  "bolans/_botton-strip",
+  "bolans/_responsive",
+  "bolans/features/_icon",
+  "bolans/features/_scroll-top"
 ;

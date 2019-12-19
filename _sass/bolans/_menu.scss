@@ -1,0 +1,240 @@
+nav {
+  float: left;
+  padding-left: 82px;
+
+  >ul>li,
+  ul li a {
+    display: inline-block;
+  }
+
+  >ul {
+
+    >li {
+      padding: 40px 19px;
+      margin-right: -1px;
+      position: relative;
+    }
+  }
+
+  ul {
+    margin-top: -4px;
+
+    li {
+
+      a {
+        color: $link-color;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      &:hover>ul {
+        opacity: 1;
+        visibility: visible;
+
+        li {
+          margin-top: 0;
+        }
+      }
+
+      a {
+
+        .style3 header &:hover,
+        &:hover,
+        &.active {
+          color: $primary-highlighter-color;
+        }
+
+        .style3 header & {
+          color: $link-inverse-color;
+        }
+      }
+    }
+
+    ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 200px;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 99;
+      @include simple-prefix(box-shadow, 0 0 20px rgba(0, 0, 0, 0.08), webkit moz ms o);
+
+      li {
+        padding: 10px 15px;
+        background-color: $link-inverse-color;
+        border-bottom: 1px solid #999999;
+        margin-top: 20px;
+
+        &:last-child {
+          border-bottom: 0;
+        }
+
+        a {
+
+          .style3 header & {
+            color: $link-color;
+
+            &:hover {
+              color: $primary-highlighter-color;
+            }
+          }
+        }
+      }
+
+      ul {
+        left: 100%;
+        top: 0;
+      }
+    }
+  }
+}
+
+/* contact */
+
+.contact {
+  float: right;
+  display: table;
+  margin-top: 27px;
+
+  >img {
+    display: table-cell;
+  }
+
+  #{&}-info {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 2px;
+    padding-left: 20px;
+
+    >span {
+      display: block;
+      color: $third-highlighter-color;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: -1px;
+    }
+
+    >h4 {
+      color: #0800ad;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .style3 header & {
+
+      >h4,
+      >span {
+        color: $link-inverse-color;
+      }
+    }
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background-color: $third-ft-color;
+  z-index: 99;
+  padding: 100px 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  @include simple-prefix(transform, translateX(-100%), webkit moz ms);
+
+  .active {
+    opacity: 1;
+    visibility: visible;
+    @include simple-prefix(transform, translateX(0), webkit moz ms);
+  }
+
+  ul {
+    padding: 0 30px;
+
+    li {
+      margin-bottom: 30px;
+      float: left;
+      width: 100%;
+
+      &.menu-item-has-children {
+
+        >a:before {
+          opacity: 1;
+          visibility: visible;
+
+          @at-root.active & {
+            content: '\f106';
+          }
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        color: $link-inverse-color;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+
+        &:hover,
+        &.active {
+          color: $third-highlighter-color;
+        }
+
+        &:before {
+          content: '\f107';
+          position: absolute;
+          top: 0;
+          right: 0;
+          color: $link-inverse-color;
+          font-size: 16px;
+          font-family: fontawesome;
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+
+      ul {
+        display: none;
+        float: left;
+        width: 100%;
+        padding: 20px 20px 0 20px;
+      }
+
+      .menu-bar {
+        display: none;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        @include simple-prefix(transform, translateX(-50%), webkit moz ms);
+
+        a span {
+          background-color: $link-inverse-color;
+        }
+
+        span {
+
+          &.bar1 {
+            @include simple-prefix(transform, translateY(15px) rotate(-45deg), webkit moz ms);
+          }
+
+          &.bar2 {
+            opacity: 0;
+            visibility: hidden;
+            @include simple-prefix(transform, scale(2, 1), webkit moz ms);
+          }
+
+          &.bar3 {
+            @include simple-prefix(transform, translateY(-9px) rotate(-135deg), webkit moz ms);
+          }
+        }
+      }
+    }
+  }
+}

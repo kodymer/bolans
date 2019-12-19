@@ -1,0 +1,128 @@
+
+rabia:
+  name: Rabia Romasa
+  position: Web-Developer
+  site: http://www.domain.org
+  avatar: team1.png
+  bio: "Life force expressing itself as a coding capable human being"
+  email: rabia@domai.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: rabia # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: rabia
+  social:
+    - title: "skype"
+      url: "https://www.skype.com/rabia"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/rabia"
+    - title: "twitter"
+      url: "https://www.twitter.com/rabia"
+    - title: "facebook"
+      url: "https://www.facebook.com/rabia"
+
+monib:
+  name: Monib Murtaza
+  position: Web-Designer
+  site: http://www.domain.org
+  avatar: team2.png
+  bio: "Life force expressing itself as a coding capable human being"
+  email: monib@domai.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: monib # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: monib
+  social:
+    - title: "skype"
+      url: "https://www.skype.com/monib"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/monib"
+    - title: "twitter"
+      url: "https://www.twitter.com/monib"
+    - title: "facebook"
+      url: "https://www.facebook.com/monib"
+
+mona:
+  name: Mona Murtabit
+  position: Manager
+  site: http://www.domain.org
+  avatar: team3.png
+  bio: "Life force expressing itself as a coding capable human being"
+  email: mona@domai.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: mona # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: mona
+  social:
+    - title: "skype"
+      url: "https://www.skype.com/mona"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/mona"
+    - title: "twitter"
+      url: "https://www.twitter.com/mona"
+    - title: "facebook"
+      url: "https://www.facebook.com/mona"
+
+faheem:
+  name: Faheem Malik
+  position: Frontend Developer
+  site: http://www.domain.org
+  avatar: team4.png
+  bio: "Life force expressing itself as a coding capable human being"
+  email: faheem@domai.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: faheem # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: faheem
+  social:
+    - title: "skype"
+      url: "https://www.skype.com/faheem"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/faheem"
+    - title: "twitter"
+      url: "https://www.twitter.com/faheem"
+    - title: "facebook"
+      url: "https://www.facebook.com/faheem"
+
+rohila:
+  name: Rohila Monika
+  position: Market Manager
+  site: http://www.domain.org
+  avatar: team5.png
+  bio: "Life force expressing itself as a coding capable human being"
+  email: rohila@domai.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: rohila # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: rohila
+  social:
+    - title: "skype"
+      url: "https://www.skype.com/rohila"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/rohila"
+    - title: "twitter"
+      url: "https://www.twitter.com/rohila"
+    - title: "facebook"
+      url: "https://www.facebook.com/rohila"
+
+atif:
+  name: Atif Khan
+  position: Manager
+  site: http://www.domain.org
+  avatar: team6.png
+  bio: "Life force expressing itself as a coding capable human being"
+  email: atif@domai.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: atif # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: atif
+  social:
+    - title: "skype"
+      url: "https://www.skype.com/atif"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/atif"
+    - title: "twitter"
+      url: "https://www.twitter.com/atif"
+    - title: "facebook"
+      url: "https://www.facebook.com/atif"
+
+

@@ -1,0 +1,21 @@
+<section class="team-sec">
+    <div class="container">
+      <div class="sec-title center-style">
+        <h2>Our Experts Team</h2>
+      </div>
+      <!--sec-title end-->
+      <div class="team-row">
+        <div class="row">
+
+        {% for author in  site.data.authors limit:3  %}
+
+          {% include detail/team-detail.html author=author.last %}
+
+        {% endfor %}
+
+        </div>
+      </div>
+      <!--team-row end-->
+    </div>
+  </section>
+  <!--team-sec end-->

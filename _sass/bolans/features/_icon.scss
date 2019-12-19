@@ -1,0 +1,72 @@
+
+.fl-icon {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.fl-icon i:before {
+	font-size: 60px;
+	margin: 0;
+}
+.feature-col:hover .fl-icon i {
+	color: #fff;
+	margin: 0;
+}
+.tp-icon .fl-icon {
+	margin: 0;
+}
+.tp-icon .fl-icon i {
+	top: 3px;
+	position: relative;
+}
+.tp-icon .fl-icon i:before {
+	font-size: 44px;
+	font-weight: 700;
+}
+.tp-icon .fl-icon i.flaticon-profit {
+	color: #ff6600;
+}
+.tp-icon .fl-icon i.flaticon-handcraft {
+	color: #2f00bd;
+}
+
+.how-works-sec .feature-col .flaticon-campaign {
+	color: #9c9c9c;
+}
+.feature-col .flaticon-campaign-1 {
+	color: #ae171b;
+}
+.feature-col .flaticon-campaign {
+	color: #313daf;
+}
+.feature-col .flaticon-sync {
+	color: #ff9f08;
+}
+.feature-col .flaticon-commerce-and-shopping {
+	color: #23ac25;
+}
+.feature-col .flaticon-server {
+	color: #020062;
+}
+
+.service-col .flaticon-attract {
+	color: #fa33f6;
+}
+.service-col .flaticon-shield {
+	color: #7f00d5;
+}
+.service-col .flaticon-shield-1 {
+	color: #0500b5;
+}
+
+.services_col .flaticon-shield {
+	color: #fda700;
+}
+.services_col .flaticon-profit-1 {
+	color: #4527a4;
+}
+.services_col .flaticon-support {
+	color: #fd09dd;
+}
+.services_col .flaticon-edit-tools {
+	color: #34c7fd;
+}

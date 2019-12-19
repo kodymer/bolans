@@ -1,0 +1,50 @@
+<section class="how-works-sec">
+  <div class="container">
+    <div class="sec-title center-style">
+
+      {% if include.summary %}
+
+        <h2>How Does Work it?</h2>
+        <a href="#" class="ftz-btn">More Features</a>
+        <div class="clearfix"></div>
+
+      {% else %}
+
+        <h2>Visually Analyze in-depth Digital<br /> Marketing & Opportunities</h2>
+
+      {% endif %}
+
+    </div>
+    <!--sec-title end-->
+    <div class="features-row">
+      <div class="row">
+
+        {% assign size = site.services.size %}
+
+        {% if include.summary %}
+
+          {% assign size = 3 %}
+
+        {% endif %}
+
+        {% for service in site.services limit:size %}
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div class="feature-col">
+            <span class="fl-icon"><i class="{{ service.icon }}"></i></span>
+            <h3><a href="{{ service.url }}" title="">{{ service.name }}</a></h3>
+            <p>{{ service.summary }}</p>
+            <a href="{{ service.url }}" title="" class="rm-btn">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <!--feature-col end-->
+        </div>
+
+        {% endfor %}
+
+      </div>
+    </div>
+    <!--features-row end-->
+  </div>
+</section>

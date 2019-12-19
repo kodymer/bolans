@@ -1,0 +1,79 @@
+/* ========================== GROW BUSINESS SECTION =========================== */
+
+.grw-text .sec-title2 {
+	margin-bottom: 25px;
+}
+.grw-text .sec-title2 h2 {
+	padding-right: 50px;
+}
+.grw-img > img {
+	width: 100%;
+}
+.grw-text {
+	padding-top: 60px;
+}
+.grw-text > p {
+	font-weight: 500;
+	margin-bottom: 45px;
+}
+.grw-text > ul {
+	display: block;
+	margin-bottom: 57px;
+}
+.grw-text > ul li {
+	display: block;
+	color: #777777;
+	font-size: 16px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	position: relative;
+	padding-left: 40px;
+}
+.grw-text > ul li:before {
+	content: '\f00c';
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #da00ec;
+	font-size: 16px;
+	font-family: 'fontawesome';
+}
+.grw-text .btn-style2 {
+	background-color: inherit;
+	border:1px solid #cccccc;
+	color: #3d415b;
+	font-size: 14px;
+	padding: 0 40px;
+	height: 50px;
+	line-height: 50px;
+}
+.grw-text .btn-style2:hover {
+	background-color: #5900b1;
+	color: #fff;
+}
+
+
+
+.why-us-sec {
+	background-image: url(../images/bg10.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding: 220px 0;
+}
+.why-us-sec .vector-img > img {
+	max-width: inherit;
+}
+
+.why-us-sec .grw-text .sec-title2 h2 {
+	padding-right: 70px;
+}
+
+
+.layout3 .partner-sec.style2 .partner-sec-details {
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.05);
+	-ms-box-shadow: 0 0 30px rgba(0,0,0,0.05);
+	-o-box-shadow: 0 0 30px rgba(0,0,0,0.05);
+	box-shadow: 0 0 30px rgba(0,0,0,0.05);
+	padding: 50px 0;
+}

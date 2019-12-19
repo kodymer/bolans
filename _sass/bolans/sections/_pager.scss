@@ -1,0 +1,74 @@
+
+
+/* ======================= PAGER SEC ======================== */
+
+
+.pager-sec {
+	background-image: url(../images/pager-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 205px 0 280px;
+}
+.pager-sec-details {padding-top: 50px;}
+.page-title {
+	float: left;
+	color: #ffffff;
+	font-size: 48px;
+}
+.pages-list {
+	float: right;
+	background-color: #fff;
+	padding: 0 70px;
+	height: 60px;
+	line-height: 60px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.24);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.24);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.24);
+	box-shadow: 0 0 10px rgba(0,0,0,0.24);
+}
+.pages-list li {
+	display: inline-block;
+	position: relative;
+	padding: 0 13px;
+}
+.pages-list li:before {
+	content: '\f101';
+	position: absolute;
+	top: 0;
+	right: -7px;
+	color: #222222;
+	font-size: 18px;
+	font-family: fontawesome;
+}
+.pages-list li:last-child {
+	padding-right: 0;
+}
+.pages-list li:last-child:before {
+	display: none;
+}
+.pages-list li a,
+.pages-list li span {
+	display: inline-block;
+	color: #222222;
+	font-size: 18px;
+	font-weight: 700;
+}
+.pages-list li.active span {
+	color: #827dff;
+}
+
+.marketing-sol-sec.no-bg {
+	background-image: inherit;
+}
+
+
+
+.subscribe-sec.no-brb {
+	border-bottom: 0;
+}
+.pt-120  {
+	padding-top: 120px;
+}
+
+

@@ -1,0 +1,83 @@
+
+/* ========================== APP SECTION =========================== */
+
+.app-sec {
+	background-image: url(../images/bg11.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 0 250px;
+}
+.app-text {
+	padding-top: 200px;
+}
+.app-text > h3 {
+	color: #ffffff;
+	font-size: 36px;
+	margin-bottom: 65px;
+}
+.app-text p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	padding-right: 20px;
+	margin-bottom: 76px;
+}
+.app-btns {
+	display: block;
+}
+.app-btns li {
+	display: inline-block;
+	border:2px solid #fff;
+	margin-right: 20px;
+	padding: 15px 28px 6px 28px;
+	position: relative;
+	cursor: pointer;
+}
+.app-btns li:hover {
+	background-color: #ffffff;
+}
+.app-btns li:hover h4,
+.app-btns li:hover h3 {
+	color: #4527a4;
+}
+.app-btns li:hover .app-icon > i {
+	color: #e258f0;
+}
+.ext-link {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.app-btns li:last-child {
+	margin-right: 0;
+}
+.app-dv {
+	display: table;
+}
+.app-icon {
+	display: table-cell;
+}
+.app-icon > i {
+	color: #ffffff;
+	font-size: 36px;
+}
+.app-btn-info {
+	display: table-cell;
+	vertical-align: top;
+	padding-left: 20px;
+	position: relative;
+	top: -3px;
+}
+.app-btn-info > h4 {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: -3px;
+}
+.app-btn-info > h3 {
+	color: #ffffff;
+	font-size: 20px;
+}

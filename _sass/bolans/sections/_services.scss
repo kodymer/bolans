@@ -1,0 +1,45 @@
+/* ========================== SERVICES SECTION =========================== */
+
+
+.services_sec {
+	padding: 120px 0 104px;
+}
+.sec-title2 {
+	max-width: 590px;
+	margin-bottom: 63px;
+}
+.sec-title2 > h4 {
+	color: #da00ec;
+	font-size: 16px;
+	margin-bottom: 29px;
+}
+.sec-title2 > h2 {
+	color: #222222;
+	font-size: 36px;
+	line-height: 60px;
+}
+.service-col {
+	padding: 50px 46px 41px;
+}
+.service-col:hover {
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.19);
+	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.19);
+	-o-box-shadow: 0 0 20px rgba(0,0,0,0.19);
+	box-shadow: 0 0 20px rgba(0,0,0,0.19);
+}
+.service-col > img {
+	margin-bottom: 20px;
+}
+.service-col > h3 {
+	color: #222222;
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+
+.more-services {
+	margin-top: 70px;
+}
+.more-services > a {
+	display: inline-block;
+}

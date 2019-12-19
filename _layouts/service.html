@@ -1,0 +1,68 @@
+---
+layout: pager
+---
+
+<section class="page-content">
+  <div class="container">
+    <div class="page-content-row">
+      <div class="services_page">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="dy-sidebar">
+              <ul class="svs-list">
+                <li>
+                  <a href="services.html" title="">All Services</a>
+                </li>
+
+                {% for service in site.services %}
+
+                <li>
+                  <a href="{{ service.url }}" title="">{{ service.name }}</a>
+                </li>
+
+                {% endfor %}
+
+              </ul>
+              <!--svs-list end-->
+              <div class="brouchers">
+                <h3>Download Our Brochures</h3>
+                <div class="broucher-row">
+                  <div class="brw-img">
+                    <img src="images/icon15.png" alt="">
+                  </div>
+                  <div class="brw-info">
+                    <p>Business is a marketing discipline on growing visibility in organic (non-paid) technic required.
+                    </p>
+                    <a href="#" title="">Click here to download</a>
+                  </div>
+                </div>
+                <!--broucher-row end-->
+              </div>
+              <!--brouchers end-->
+            </div>
+            <!--dy-sidebar end-->
+          </div>
+          <div class="col-lg-8">
+            <div class="blog-item single">
+              <div class="blog-img">
+                <img src="/assets/images/resources/{{ layout.image }}" alt="">
+              </div>
+              <!--blog-img end-->
+              <div class="blog-info">
+                <h3 class="blog-title">{{ layout.name }}</h3>
+
+                {{ content }}
+
+              </div>
+              <!--blog-info end-->
+            </div>
+            <!--blog-item end-->
+          </div>
+        </div>
+      </div>
+      <!--services_page end-->
+    </div>
+    <!--page-content-row end-->
+  </div>
+</section>
+<!--page-content end-->

@@ -1,0 +1,61 @@
+
+
+/* ============================== FAQs PAGE =========================== */
+
+.faqs-text > h4 {
+	color: #2200bd;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+.faqs-text > h3 {
+	color: #222222;
+	font-size: 36px;
+	margin-bottom: 44px;
+}
+.faqs-text p {
+	margin-bottom: 50px;
+}
+
+.toggle {
+	padding-left: 50px;
+}
+.toggle-item {
+	margin-bottom: 30px;
+}
+.toggle-item > h2 {
+	color: #222222;
+	font-size: 18px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	-o-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	padding: 25px 0 28px 88px;
+	position: relative;
+	cursor: pointer;
+}
+.toggle-item > h2:before {
+	content: '\f101';
+	font-family: fontawesome;
+	position: absolute;
+	top: 50%;
+	left: 45px;
+	color: #222222;
+	font-size: 18px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-top: -2px;
+}
+.toggle-item > h2:hover,
+.toggle-item > h2:hover:before {
+	color: #0500b5;
+}
+.content p {
+	margin-top: 30px;
+	padding: 0 45px;
+}

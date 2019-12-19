@@ -1,0 +1,91 @@
+
+.contact-col > h3 {
+	color: #222222;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.contact-col > p {
+	font-size: 15px;
+	padding-right: 100px;
+	margin-bottom: 30px;
+}
+.contact-col .form-roww .row {
+	margin: 0 -10px;
+}
+.contact-col .form-roww .col-lg-6,
+.contact-col .form-roww .col-lg-12 {
+	padding: 0 10px;
+}
+
+.contact-col .form-roww .form-field textarea {
+	height: 200px;
+}
+.contact-col .form-submit {
+	margin-top: -6px;
+}
+
+.our_social_links {
+	margin-top: 65px;
+}
+.our_social_links > h3 {
+	color: #222222;
+	font-size: 24px;
+	margin-bottom: 22px;
+}
+.our_social_links .social-links {
+	margin-top: 34px;
+}
+.our_social_links .social-links li a {
+	color: #3e4d69;
+}
+.our_social_links .social-links li a:hover {
+	color: #fe5722;
+}
+
+
+#map {
+	height: 800px;
+	margin-top: 15px;
+}
+
+
+.contact-list-info {
+	margin-top: 120px;
+}
+.contact_info {
+	display: table;
+	width: 100%;
+}
+.ctt-icon {
+	display: table-cell;
+	float: left;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	line-height: 105px;
+	border:2px solid #ffcc00;
+}
+.ctt-info {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+	padding-left: 30px;
+}
+.ctt-info > span {
+	display: inline-block;
+	color: #777777;
+	font-size: 18px;
+	line-height: 30px;
+	padding-right: 30px;
+}
+.ctt-info > span a {
+	display: inline-block;
+}
+.ctt-icon.clr2 {
+	border-color: #20e100;
+}
+.ctt-icon.clr3 {
+	border-color: #ff1c1c;
+}
+
+

@@ -1,0 +1,39 @@
+.partner {
+
+  &-sec {
+    margin-bottom: -194px;
+    z-index: 9;
+
+    &-details {
+      background-color: $primary-ft-inverse-color;
+      border-radius: 25px;
+      padding: 110px 0;
+      text-align: center;
+      @include simple-prefix(box-shadow, 0 0 30px rgba(0, 0, 0, 0.05), webkit moz ms o);
+      @include simple-prefix(border-radius, 25px, webkit moz ms o);
+    }
+
+  }
+
+  &-col {
+    display: flex;
+    align-items: center;
+
+    >a {
+
+      img {
+        filter: grayscale(100%);
+
+        &:hover {
+          filter: grayscale(0);
+        }
+      }
+    }
+  }
+}
+
+.pt-carousel .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

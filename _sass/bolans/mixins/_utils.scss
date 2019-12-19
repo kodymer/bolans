@@ -1,0 +1,28 @@
+/// Mixin to prefix a property
+/// @author Hugo Giraudel
+/// @param {String} $property - Property name
+/// @param {*} $value - Property value
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin simple-prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+
+/// Mixin to prefix several properties at once
+/// @author Hugo Giraudel
+/// @param {Map} $declarations - Declarations to prefix
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin several-prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+  }
+}

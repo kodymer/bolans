@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section class="pager-sec">
+  <div class="container">
+    <div class="pager-sec-details">
+      <h2 class="page-title">{{ layout.title }}</h2>
+      <ul class="pages-list">
+        <li><a href="#" title="">Home</a></li>
+        <li class="active"><span>{{ layout.title }}</span></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <!--pager-sec-details end-->
+  </div>
+</section>
+<!--pager-sec end-->
+
+{{ content }}
+
+{% include partner.html %}
+{% include get-touch.html %}
+{% include footer.html %}

@@ -1,0 +1,24 @@
+
+.error-page > h3 {
+	color: #2d26b3;
+	font-size: 48px;
+	margin: 100px 0 15px;
+}
+.error-page p {
+	font-size: 18px;
+	line-height: 36px;
+	max-width: 690px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+.error-page .btn-style2 {
+	background-color: inherit;
+	color: #2d26b3;
+	font-size: 18px;
+	padding: 0 36px;
+	border: 2px solid $third-ft-color;
+}
+.error-page .btn-style2:hover {
+	background-color: $third-ft-color;
+	color: #fff;
+}
