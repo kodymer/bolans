@@ -41,7 +41,7 @@ nav {
         .style3 header &:hover,
         &:hover,
         &.active {
-          color: $primary-highlighter-color;
+          color: $primary-color;
         }
 
         .style3 header & {
@@ -76,7 +76,7 @@ nav {
             color: $link-color;
 
             &:hover {
-              color: $primary-highlighter-color;
+              color: $primary-color;
             }
           }
         }
@@ -109,7 +109,7 @@ nav {
 
     >span {
       display: block;
-      color: $third-highlighter-color;
+      color: $third-color;
       font-size: 12px;
       font-weight: 500;
       margin-bottom: -1px;
@@ -184,7 +184,7 @@ nav {
 
         &:hover,
         &.active {
-          color: $third-highlighter-color;
+          color: $third-color;
         }
 
         &:before {

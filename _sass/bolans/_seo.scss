@@ -5,23 +5,16 @@
 	background-size: cover;
   padding: 120px 0;
 
-  .sec-title.center-style {
-    text-align: center;
+  .sec-title.text-center {
 
     >h2 {
       color: $primary-ft-inverse-color;
 
-      &:before,
-      &:after {
-        left: 50%;
-      }
-
       &:before {
-        background-color: $underline-before-bg-color;
         @include simple-prefix(transform, translateX(-50%), webkit moz ms o);
       }
+
       &:after {
-        background-color: $underline-after-bg-color;
         margin-left: 58px;
         @include simple-prefix(transform, translateX(-50%), webkit moz ms o);
       }

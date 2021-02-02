@@ -31,7 +31,7 @@
       @include simple-prefix(box-shadow, 0 0 10px rgba(0, 0, 0, 0.05), webkit moz ms o);
 
       &:hover {
-        background-color: $secondary-highlighter-color;
+        background-color: $secondary-color;
         color: $link-inverse-color;
       }
     }

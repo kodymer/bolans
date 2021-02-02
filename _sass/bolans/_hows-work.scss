@@ -1,9 +1,24 @@
 .how-works-sec {
-  padding-top: 100px;
-  padding-bottom: 76px;
+  padding: 120px 0 0 0;
 
-  .sec-title>h2 {
-    float: left;
+  .style2 & {
+    background-image: url(../images/bg5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .feature {
+      &-row {
+
+        .row {
+          justify-content: center;
+        }
+      }
+
+      &-col {
+        margin-bottom: 60px;
+      }
+    }
+
   }
 }
 
@@ -22,6 +37,7 @@
   }
 
   &:hover {
+    padding-bottom: 90px;
     margin-top: -20px;
     top: 0;
 
@@ -37,7 +53,7 @@
 
     .rm-btn {
       background-color: $primary-ft-inverse-color;
-      color: $third-highlighter-color;
+      color: $third-color;
     }
   }
 
@@ -92,7 +108,7 @@
   height: 60px;
   line-height: 60px;
   text-align: center;
-  color:  $primary-ft-inverse-color;
+  color: $primary-ft-inverse-color;
   font-size: $large-ft-size;
   background-color: $third-ft-color;
   position: relative;
@@ -100,8 +116,8 @@
   @include simple-prefix(box-shadow, 10px 5px 10px rgba(0, 0, 0, 0.10), webkit moz ms o);
 
   &:hover {
-    background-color: $primary-ft-inverse-color;
-    color: $third-highlighter-color;
+    background-color: $primary-color;
+    color: $primary-ft-inverse-color;;
   }
 }
 
@@ -118,7 +134,7 @@
   font-weight: 700;
 
   &:hover {
-    background-color: $third-highlighter-color;
+    background-color: $third-color;
     color: $primary-ft-inverse-color;
   }
 }

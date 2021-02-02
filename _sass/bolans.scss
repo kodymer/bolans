@@ -23,9 +23,9 @@ $paragraph-color:                       #777777 !default;
 $link-color:                            $secondary-ft-color !default;
 $link-inverse-color:                    $primary-ft-inverse-color !default;
 
-$primary-highlighter-color:             #ff7e00 !default;
-$secondary-highlighter-color:           $third-ft-color !default;
-$third-highlighter-color:               $underline-after-bg-color !default;
+$primary-color:                         #ff7e00 !default;
+$secondary-color:                       $third-ft-color !default;
+$third-color:                           $underline-after-bg-color !default;
 
 // $spacing-unit:     30px !default;
 
@@ -72,6 +72,8 @@ $third-highlighter-color:               $underline-after-bg-color !default;
   "bolans/_menu",
   "bolans/_banner",
   "bolans/_hows-work",
+  "bolans/_marketing-sol",
+  "bolans/_prof-services",
   "bolans/_tips",
   "bolans/_seo",
   "bolans/_case-studies",

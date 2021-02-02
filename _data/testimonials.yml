@@ -1,17 +1,20 @@
 - name: Joe Doe
   avatar: cm-img.jpg
   position: Web Developer
+  start: 3
   testimony: "Our approach has empowered local, national, and global brands to grow their businesses and achieve
   a competitive advantage and we can do the same for you."
 
 - name: Sarah James
   avatar: cm-img.jpg
-  position: Web Designer
+  position: Web Designercc
+  start: 2
   testimony: "Our approach has empowered local, national, and global brands to grow their businesses and achieve
   a competitive advantage and we can do the same for you."
 
 - name: Natalie James
   avatar: cm-img.jpg
   position: Content Write
+  start: 5
   testimony: "Our approach has empowered local, national, and global brands to grow their businesses and achieve
-  a competitive advantage and we can do the same for you."
+              a competitive advantage and we can do the same for you."

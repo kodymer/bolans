@@ -1,5 +1,4 @@
-
-%underline{
+%underline {
   content: '';
   position: absolute;
   bottom: 0;
@@ -8,9 +7,10 @@
 
 .sec-title {
   margin-bottom: 80px;
-	margin-top: -15px;
+  margin-top: -15px;
 
   >h2 {
+    float: left;
     color: $primary-ft-color;
     font-size: 36px;
     position: relative;
@@ -25,13 +25,34 @@
     &:before {
       left: 0;
       width: 76px;
-      background-color:$underline-before-bg-color;
+      background-color: $underline-before-bg-color;
     }
 
     &:after {
       left: 86px;
       width: 20px;
-      background-color:$underline-after-bg-color;
+      background-color: $underline-after-bg-color;
+    }
+  }
+
+  &.text-center {
+
+    >h2 {
+      float: none !important;
+
+      &:before,
+      &:after {
+        left: 50%;
+        @include simple-prefix(transform, translateX(-50%), webkit moz ms o);
+      }
+
+      &:before {
+        margin-left: -29px;
+      }
+
+      &:after {
+        margin-left: 29px;
+      }
     }
   }
 }

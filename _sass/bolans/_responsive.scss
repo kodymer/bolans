@@ -346,8 +346,8 @@
 	.ftz-btn {display: none;}
 	.tps-row {margin-bottom: 50px;}
 	.sec-title > h2 {font-size: 22px;}
-	.sec-title.center-style > h2::before {margin-left: -20px;}
-	.sec-title.center-style > h2::after {margin-left: 38px;}
+	.sec-title.text-center > h2::before {margin-left: -20px;}
+	.sec-title.text-center > h2::after {margin-left: 38px;}
 	.seo-sec {padding: 70px 0 90px;}
 	.form-row {margin-bottom: 30px;}
 	.fact-col {width: 42%;margin-bottom: 30px;}
@@ -454,7 +454,7 @@
 	.prof-services {padding: 100px 0;}
 	.prof-text .rm-btn {top: 0;}
 	.pro-num {display: none;}
-	.prof-services-sec .sec-title.center-style {margin-bottom: 60px;}
+	.prof-services-sec .sec-title.text-center {margin-bottom: 60px;}
 	.prof-text {margin-bottom: 60px;}
 	.prof-services:nth-child(3) {padding: 20px 0 100px;}
 	.prof-text > h3 {font-size: 22px;line-height: 32px;}

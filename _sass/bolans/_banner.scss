@@ -12,7 +12,7 @@
   border: 2px solid $link-inverse-color;
 
   &:hover {
-    background-color: $third-highlighter-color;
+    background-color: $third-color;
     color: $link-inverse-color;
   }
 }
@@ -28,44 +28,6 @@
     .style2 & {
       background-image: url(../images/resources/banner-bg2.png);
       padding: 403px 0 249px;
-
-      .banner-text {
-        max-width: 480px;
-
-        >h2,
-        >h4,
-        >p {
-          color: $primary-ft-inverse-color;
-        }
-
-        >h2 {
-          font-size: 42px;
-          line-height: 60px;
-          margin-bottom: 26px;
-        }
-
-        >h4 {
-          font-size: 24px;
-          margin-bottom: 10px;
-          font-weight: $base-ft-weight;
-        }
-
-        >p {
-          max-width: 420px;
-          margin-bottom: 40px;
-        }
-
-        >.btn-default {
-          color: #000c29;
-          background-color: $primary-ft-inverse-color;
-          border-color: transparent;
-
-          &:hover {
-            background-color: $primary-highlighter-color;
-            color: $link-inverse-color;
-          }
-        }
-      }
 
       .vector-shape {
         width: 50%;
@@ -84,24 +46,66 @@
   }
 
   &-text {
-    max-width: 585px;
-    width: 50%;
-    position: relative;
     float: left;
-    padding-top: 60px;
 
-    &>h2 {
+    >h2 {
       color: $primary-ft-inverse-color;
-      font-size: 54px;
-      line-height: 84px;
+      font-size: 50px;
+      line-height: 66px;
       font-weight: 700;
       margin: 0 0 20px;
     }
 
-    &>p {
+    >p {
       margin-bottom: 50px;
       max-width: 515px;
       color: $primary-ft-inverse-color;
+    }
+
+    .style1 &,
+    .style3 &,
+    .style4 &{
+      width: 50%;
+      position: relative;
+      padding-top: 60px;
+    }
+
+    .style2 & {
+      max-width: 480px;
+
+      >h2,
+      >h4,
+      >p {
+        color: $primary-ft-inverse-color;
+      }
+
+      >h2 {
+        font-size: 42px;
+        line-height: 60px;
+        margin-bottom: 26px;
+      }
+
+      >h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: $base-ft-weight;
+      }
+
+      >p {
+        max-width: 420px;
+        margin-bottom: 40px;
+      }
+
+      >.btn-default {
+        color: #000c29;
+        background-color: $primary-ft-inverse-color;
+        border-color: transparent;
+
+        &:hover {
+          background-color: $primary-color;
+          color: $link-inverse-color;
+        }
+      }
     }
   }
 }

@@ -7,12 +7,20 @@
     &-details {
       background-color: $primary-ft-inverse-color;
       border-radius: 25px;
-      padding: 110px 0;
+      padding: 90px 0;
       text-align: center;
       @include simple-prefix(box-shadow, 0 0 30px rgba(0, 0, 0, 0.05), webkit moz ms o);
       @include simple-prefix(border-radius, 25px, webkit moz ms o);
+
+      .style2 & {
+        padding-bottom: 0;
+        @include simple-prefix(box-shadow, inherit, webkit moz ms o);
+      }
     }
 
+    .style2 & {
+      margin-bottom: 0;
+    }
   }
 
   &-col {
@@ -25,6 +33,10 @@
         filter: grayscale(100%);
 
         &:hover {
+          filter: grayscale(0);
+        }
+
+        .style2 & {
           filter: grayscale(0);
         }
       }

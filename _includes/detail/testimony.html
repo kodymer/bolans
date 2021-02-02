@@ -1,0 +1,58 @@
+<div class="testi-slide">
+
+  {% if site.style == "style2" %}
+
+    <p>{{ include.witness.testimony }}</p>
+
+  {% endif %}
+
+  <div class="testi-comment">
+    <div class="cm-head">
+      <div class="cm-img">
+
+        {% if site.style == "style2" %}
+
+        <img src="/assets/images/resources/user-img.png" alt="">
+
+        {% else %}
+
+        <img src="/assets/images/resources/{{ include.witness.avatar }}" alt="">
+
+        {% endif %}
+
+      </div>
+      <!--cm-img end-->
+      <div class="cm-info">
+        <h3>{{ include.witness.name }}</h3>
+
+        {% if site.style == "style2" %}
+
+          <ul class="rating">
+
+            {% for i in (1..include.witness.start) %}
+
+            <li><i class="fa fa-star"></i></li>
+
+            {% endfor %}
+
+          </ul>
+          <!--rating end-->
+
+        {% else %}
+
+          <span>{{ include.witness.position }}</span>
+
+        {% endif %}
+
+      </div>
+    </div>
+
+    {% unless site.style == "style2" %}
+
+    <p>{{ include.witness.testimony }}</p>
+
+    {% endunless %}
+
+  </div>
+  <!--testi-comment end-->
+</div>

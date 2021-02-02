@@ -4,8 +4,10 @@
         <div class="pt-carousel">
           {% for partner in site.data.partners %}
 
+          {% assign prefix = site.style | default: "" %}
+
           <div class="partner-col">
-            <a href="#" title=""><img src="/assets/images/resources/{{ partner.avatar }}" alt=""></a>
+            <a href="#" title=""><img src="/assets/images/resources/{{ partner.avatar | prepend: prefix }}" alt=""></a>
           </div>
 
            {% endfor %}

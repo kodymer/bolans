@@ -48,7 +48,7 @@
 
       &,
       .style3 & {
-        color: $primary-highlighter-color;
+        color: $primary-color;
       }
     }
   }
@@ -106,7 +106,7 @@
         color: $third-ft-color;
 
         .style3 &:hover {
-          color: $primary-highlighter-color;
+          color: $primary-color;
         }
       }
     }

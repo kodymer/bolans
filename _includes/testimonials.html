@@ -1,19 +1,28 @@
 <section class="testimonial-sec">
   <div class="container">
     <div class="testi-sec">
+
+      {% if site.style == "style2" %}
+
+      <div class="sec-title text-center">
+        <h2>What Client’s Says <br /> About Us</h2>
+      </div>
+      <!--sec-title end-->
+
+      {% endif %}
+
       <div class="testi-carousel">
 
         {% for witness in  site.data.testimonials  %}
 
-        {% include detail/testimony-detail.html witness=witness %}
+        {% include detail/testimony.html witness=witness %}
 
         {% endfor %}
 
       </div>
+      <!--testi-carousel end-->
     </div>
-    <!--testi-carousel end-->
+    <!--testi-sec end-->
   </div>
-  <!--testi-sec end-->
-</div>
 </section>
 <!--testimonial-sec end-->

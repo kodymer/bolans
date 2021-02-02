@@ -50,7 +50,7 @@ theme: bolans
 # If you want to apply a specific style in your site, uncomment
 # this and add the style to the site as should show up
 # default style is style1
-#style: style1 #[style2, style3, style4]
+style: style2 #[style1, style2, style3, style4]
 
 plugins:
  - jekyll-feed

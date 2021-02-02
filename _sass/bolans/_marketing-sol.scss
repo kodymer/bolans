@@ -1,0 +1,64 @@
+.marketing-sol-sec {
+  background-image: url(../images/bg-shape3.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 190px 0 190px;
+
+  .sec-title {
+    margin-bottom: 48px;
+  }
+}
+
+.vector-img>img {
+  max-width: 90%;
+}
+
+.sol-col>p {
+  line-height: 36px;
+  margin-bottom: 35px;
+}
+
+.lnk-default {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: $third-ft-color;
+  padding: 0 77px 0 30px;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+  margin-top: 7px;
+  @include simple-prefix(box-shadow, 0 0 10px rgba(0, 0, 0, 0.20), webkit moz ms o);
+
+  &,
+  &:hover,
+  &:hover .next-btn {
+    color: $primary-ft-inverse-color;
+  }
+
+  &:hover,
+  &:hover .next-btn  {
+    background-color: $primary-color;
+  }
+
+  &:hover {
+    .next-btn {
+      border-color: $primary-color;
+    }
+  }
+}
+
+.next-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: $underline-after-bg-color;
+  font-size: 18px;
+  border: 2px solid $underline-after-bg-color;
+  background-color: $link-inverse-color;
+}

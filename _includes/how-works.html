@@ -1,33 +1,37 @@
 <section class="how-works-sec">
   <div class="container">
-    <div class="sec-title center-style">
+    <div class="sec-title text-center">
 
-      {% if include.summary %}
+      {% assign style = site.style | default: "style1" %}
+
+      {% case style %}
+
+        {% when "style1" %}
 
         <h2>How Does Work it?</h2>
         <a href="#" class="ftz-btn">More Features</a>
         <div class="clearfix"></div>
 
-      {% else %}
+        {% else %}
 
         <h2>Visually Analyze in-depth Digital<br /> Marketing & Opportunities</h2>
 
-      {% endif %}
+      {% endcase %}
 
     </div>
     <!--sec-title end-->
-    <div class="features-row">
+    <div class="feature-row">
       <div class="row">
 
-        {% assign size = site.services.size %}
+        {% assign limit = site.services.size %}
 
-        {% if include.summary %}
+        {% if include.limit > 0 %}
 
-          {% assign size = 3 %}
+        {% assign limit = include.limit %}
 
         {% endif %}
 
-        {% for service in site.services limit:size %}
+        {% for service in site.services limit:limit %}
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
           <div class="feature-col">
